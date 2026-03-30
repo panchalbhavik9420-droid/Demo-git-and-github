@@ -1,3 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 300px;
+    max-width: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
 h1{
-    background-color: black;
+    text-align: center;
+    margin-top: 70px;
+}
+input{
+    max-width: 300px;
+    margin-top: 10px;
+    height:40px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    border: 2px solid #ccc;
+}
+button{
+    max-width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    background-color:#ff758f;
+    columns: #c9184a;
+    text-align: center;
+}
+input:hover{
+    text-transform:uppercase;
 }
